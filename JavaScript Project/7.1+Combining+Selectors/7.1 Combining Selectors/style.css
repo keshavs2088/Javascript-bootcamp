@@ -1,0 +1,22 @@
+/* Write your code here: */
+h1, h2{                     /*group together */
+    color: blueviolet;
+}
+
+
+.box > p{                   /*just below child */
+    color: firebrick;
+}
+
+
+.box li{                    /* child anywhere under */ 
+    color: blue;
+}
+
+li.done{                    /* highly specific tag */
+    color: seagreen;
+}
+
+ul p.done{                  /* combination */
+    font-size: 0.5rem;
+}
